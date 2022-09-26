@@ -1,6 +1,6 @@
 ---
 - name: win_chocolatey module demo
-  hosts: 107.21.75.6
+  hosts: windows
   become: false
   gather_facts: false
   tasks:
