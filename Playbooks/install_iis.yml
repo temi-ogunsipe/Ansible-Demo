@@ -10,7 +10,7 @@
 
     - name: start iis service
       win_service:
-        name: W1Svc
+        name: W3Svc
         state: started
 
     - name: Create website index.html
